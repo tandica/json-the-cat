@@ -18,7 +18,7 @@ const fetchBreedDescription = function(breed, callback) {
   } else {
       callback(null, 'breed name not found');
   }
-});
+}); 
 }
 
 //fetchBreedDescription()

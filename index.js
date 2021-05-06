@@ -6,7 +6,7 @@ const breed = args[2]
 fetchBreedDescription(breed, (error, breedName) => {
     if (!error) {
         console.log(breedName);
-    } else {
+    } else { 
       console.log('Error details:', error);
     }
   });
